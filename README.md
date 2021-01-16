@@ -11,7 +11,9 @@ On the client side, all files are in the `/client` directory. It was initialized
 
 ## To run
 First you need to install the required packages with `yarn`.
+
 To run the project, enter `yarn dev` and navigate to `http://localhost:3000`
+
 If you want to hit the api directly, it's on `http://localhost:5000`. You can test the endpoint directly from there.
 
 ## Some discussion on what could be better
