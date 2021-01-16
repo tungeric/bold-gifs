@@ -9,6 +9,11 @@ Server code can be found on `server.js` and is built using `ExpressJS`. It essen
 
 On the client side, all files are in the `/client` directory. It was initialized using `create-react-app` and subsequently cleaned up. The app for all intents and purposes starts with `App.js`, which fetches the gifs from the server when it's loaded and saves it in the App component state. Each time the button is clicked, the list is reshuffled and re-rendered in the new order.
 
+## To run
+First you need to install the required packages with `yarn`.
+To run the project, enter `yarn dev` and navigate to `http://localhost:3000`
+If you want to hit the api directly, it's on `http://localhost:5000`. You can test the endpoint directly from there.
+
 ## Some discussion on what could be better
 If this was an application I needed to maintain long term, for starters the server would likely be hooked up to a database of some sort so the gifs are not a hardcoded list in the server. Also, I would likely choose to move code over to use TypeScript to help catch errors before they go into production. This also helps to make code more understandable since you know what input and output types are.
 
