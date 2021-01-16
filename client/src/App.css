@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(3, 250px);
+  grid-gap: 5px;
+}
+
+
+.grid-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
